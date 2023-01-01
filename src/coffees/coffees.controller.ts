@@ -15,6 +15,5 @@ export class CoffeesController {
   @Post()
   create(@Body() body) {
     return body;
-    return 'This action creates a coffee';
   }
 }
